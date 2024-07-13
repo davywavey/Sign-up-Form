@@ -41,7 +41,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         document.getElementById('passwordError').textContent = 'Password is required.';
         isValid = false;
     } else if (password.toLowerCase() === 'password' || password.length < 8 || password.includes(fullName)) {
-        document.getElementById('passwordError').textContent = 'Password is not strong enough.';
+        document.getElementById('passwordError').textContent = 'Password should be of 8 characters.';
         isValid = false;
     } 
 
