@@ -9,7 +9,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            overflow-x: hidden;
+            overflow: hidden;
         }
 
         .container {
@@ -82,5 +82,9 @@
 
         .right-side {
         display: none; 
+        }
+                
+        body {
+                overflow-x: hidden;
         }
 }
